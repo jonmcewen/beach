@@ -66,18 +66,14 @@
 <div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
 	<header>
-		<h1 id="banner"><a href="/"><img src="logopic_trans.gif"/><img src="logoword.png"/></a></h1>
-	</header>
- 		
-		 <nav>
-			<div class="tn">
-				<a href="">Product</a>
-				<a href="">Store</a>
-				<a href="">About</a>
-				<a href="">Contact</a>
-			</div>
+		<h1 id="banner"><a href="/"><img id="logopic" src="logopic_trans.gif"/><img id="logoword" src="logoword.png"/></a></h1>
+		<nav id="topnav">
+			<a href="">Product</a>
+			<a href="">Store</a>
+			<a href="">About</a>
+			<a href="">Contact</a>
 		</nav>
-	
+	</header>
 	
 	<section id="product">
 		
@@ -90,19 +86,21 @@
 			<li>Made from 100% cotton</li>
 			<li>$69.95 + P&P</li>
 		</ul>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="W8HFF6TEDZTZ2">
+			<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
 	
 	</section>
 	<aside id="pitch">
                 <p>The beach windbreak is designed to shelter you from the wind whilst enjoying the beach.</p>
         </aside>
-        <section id="shop">
-                <h1>Buy now</h1>
-                <p>Phone: 0402716784</p>
-                <p><a href="mailto:beachwindbreak@email.com">beachwindbreak@email.com</a></p>
-		<p><i>Online shop coming soon!</i></p>
-	<section>
 
 	<footer>
+                <p>Phone: 0402716784</p>
+                <p><a href="mailto:beachwindbreak@email.com">beachwindbreak@email.com</a></p>
 		
 		<p><small>&copy; Copyright Jason McEwen 2012. All Rights Reserved.</small></p>
 		
